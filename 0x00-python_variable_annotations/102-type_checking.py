@@ -5,7 +5,8 @@
 from typing import Tuple, List, Union, Any
 
 
-def zoom_array(lst: Union[Tuple[Any, ...], List[Any]], factor: int = 2) -> List:
+def zoom_array(lst: Union[Tuple[Any, ...], List[Any]],
+               factor: int = 2) -> List:
     '''func'''
     zoomed_in: List = [
         item for item in lst
