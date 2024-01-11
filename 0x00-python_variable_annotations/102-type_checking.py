@@ -5,7 +5,7 @@
 from typing import Tuple, List, Union, Any
 
 
-def zoom_array(lst: Tuple, factor: int = 2) -> List:
+def zoom_array(lst: List, factor: int = 2) -> List:
     '''function'''
     zoomed_in: List = [
         item for item in lst
