@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """complex coroutines"""
 
-from . import wait_random
 from typing import List
 import asyncio
+
+wait_random = __import__("0-basic_async_syntax.py").wait_random
 
 
 async def wait_n(n: int, max_delay: int = 10) -> List[float]:
